@@ -130,3 +130,10 @@ Bob Lantz
 Mininet Core Team
 
 [1]: https://travis-ci.org/mininet/mininet.svg?branch=master
+
+Common commands:
+sudo mn -c
+ovs-ofctl show s1
+ovs-ofctl dump-flows s1
+ovs-ofctl dump-flows tcp:127.0.0.1:6634
+
